@@ -13,4 +13,24 @@ This project is an Employee Management System that allows users to add employees
 2. Navigate to the `backend` directory and install the required packages by running:
 
 ``` cd backend
-  npm install ```
+  npm install 
+
+
+3. Start the server by running:
+
+The server will start at `localhost:5000`.
+
+4. Open a new terminal window, navigate to the `frontend` directory, and install the required packages by running:
+
+5. Start the frontend by running:
+
+This will start the frontend server at `localhost:3000`.
+
+## Usage
+- To add a new employee:
+- Navigate to `localhost:3000`.
+- Fill out the employee details in the provided form (name, salary, department) and submit the form.
+- To list all added employees:
+- Navigate to `localhost:3000`.
+- The list of all added employees will be displayed below the form.
+
