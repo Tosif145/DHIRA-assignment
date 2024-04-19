@@ -1,5 +1,9 @@
 # Employee Management System
 
+## Screenshot
+![Front end](Employee.jpg)
+
+
 ## Overview
 This project is an Employee Management System that allows users to add employees with details such as name, salary, and department. It also provides functionality to list all added employees.
 
