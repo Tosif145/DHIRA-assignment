@@ -5,14 +5,16 @@ const EmployeeList = ({ employees }) => {
   return (
     <>
     
-   
+    <hr />
     <div className='employee-list'>
       <h2>Employee List</h2>
-      <div style={{color:"black",fontWeight:'600'}} className='employee-list'><span>Name</span> - <span>Salary</span> - <span>Department</span></div>
+      <div style={{color:"black",fontWeight:'600'}} className='employee-list-inner'><p>Name</p>  <p>Salary</p> <p>Department</p></div>
       <ul>
         {employees.map((employee) => (
           <li key={employee._id}>
-            {employee.name} - {employee.salary} - {employee.department}
+            <div>{employee.name}</div>
+            <div>{employee.salary}</div>
+            <div>{employee.department}</div>
             
           </li>
         ))}

@@ -1,20 +1,43 @@
+hr{
+  margin-top: 80px;
+  max-width: 35%;
+  height: 5px;
+  border: none;
+  background: linear-gradient(to right, #ccc, #888, #ccc); /* Gradient background */
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.4); /* Box shadow for texture */
+}
+
 .employee-list {
-    max-width: 600px;
-    margin: 20px auto;
-  }
-  
-  .employee-list h2 {
-    text-align: center;
-  }
-  
-  .employee-list ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .employee-list li {
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #f2f2f2;
-  }
-  
+  max-width: 600px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.employee-list-inner{
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.employee-list h2 {
+  text-align: center;
+}
+
+.employee-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.employee-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+
+
