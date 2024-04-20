@@ -1,7 +1,7 @@
 # Employee Management System
 
 ## Screenshot
-![Front end](EmployeeSystem.png)
+![Front end](Employee.png)
 
 
 ## Overview
